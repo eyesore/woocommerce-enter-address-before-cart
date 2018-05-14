@@ -4,7 +4,7 @@
 * Redirects to this page when Shipping Address 1 is empty
 * When this page is posted to, saves information and redirects to cart
 
-##TODO 
+## TODO 
 * Add Actions and Filters
 * Add Settings
 * Add more validation than just Address 1
