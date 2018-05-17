@@ -140,6 +140,7 @@ class Eyesore_Address_Cart_Public {
 	public function before_cart(){
 		if(is_page('cart')){
 			$shipping = WC()->customer->get_shipping();
+			$empty = apply_filters('wceabc_valid_shipping', empty($shipping['address_1']), $shipping);
 			if(empty($shipping['address_1'])){
 				wp_redirect(get_permalink( get_page_by_title( 'Shipping Address' ) ));
 				exit;
