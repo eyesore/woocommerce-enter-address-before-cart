@@ -22,3 +22,7 @@
 	* Called In - wc-shipping-address.php (Eyesore_Address_Cart_Public::wc_shipping_address_shortcode())
 * wceabc_after_form - Done in markup after form
 	* Called In - wc-shipping-address.php (Eyesore_Address_Cart_Public::wc_shipping_address_shortcode())
+* wceabc_before_inputs - Done inside form tag before inputs
+	* Called In - wc-shipping-address.php (Eyesore_Address_Cart_Public::wc_shipping_address_shortcode())
+* wceabc_after_inputs - Done inside form tag after inputs
+	* Called In - wc-shipping-address.php (Eyesore_Address_Cart_Public::wc_shipping_address_shortcode())
